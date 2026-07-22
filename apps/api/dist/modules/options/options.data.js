@@ -1,0 +1,95 @@
+export const ministryPlacementCatalog = [
+    {
+        id: "dept-technical",
+        code: "DEPT-TECHNICAL",
+        label: "Technical",
+        kind: "department",
+    },
+    {
+        id: "dept-media",
+        code: "DEPT-MEDIA",
+        label: "Media",
+        kind: "department",
+    },
+    {
+        id: "dept-sunday-school",
+        code: "DEPT-SUNDAY-SCHOOL",
+        label: "Sunday School",
+        kind: "department",
+    },
+    {
+        id: "dept-children",
+        code: "DEPT-CHILDREN",
+        label: "Children",
+        kind: "department",
+    },
+    {
+        id: "dept-teens",
+        code: "DEPT-TEENS",
+        label: "Teens",
+        kind: "department",
+    },
+    {
+        id: "dept-ushers",
+        code: "DEPT-USHERS",
+        label: "Ushering",
+        kind: "department",
+    },
+    {
+        id: "unit-protocol",
+        code: "UNIT-PROTOCOL",
+        label: "Protocol",
+        kind: "unit",
+    },
+    {
+        id: "dept-choir",
+        code: "DEPT-CHOIR",
+        label: "Choir",
+        kind: "department",
+    },
+    {
+        id: "unit-prayer",
+        code: "UNIT-PRAYER",
+        label: "Prayer",
+        kind: "unit",
+    },
+    {
+        id: "unit-security",
+        code: "UNIT-SECURITY",
+        label: "Security",
+        kind: "unit",
+    },
+    {
+        id: "unit-sanitation",
+        code: "UNIT-SANITATION",
+        label: "Sanitation",
+        kind: "unit",
+    },
+    {
+        id: "unit-drama",
+        code: "UNIT-DRAMA",
+        label: "Drama",
+        kind: "unit",
+    },
+    {
+        id: "unit-evangelism",
+        code: "UNIT-EVANGELISM",
+        label: "Evangelism",
+        kind: "unit",
+    },
+];
+export const captureRequirements = {
+    minImages: 30,
+    maxImages: 30,
+    supportedPoses: [
+        "LOOK_FORWARD",
+        "TURN_LEFT",
+        "TURN_RIGHT",
+        "LOOK_UP",
+        "LOOK_DOWN",
+        "SMILE",
+        "NEUTRAL",
+        "SLIGHT_LEFT",
+        "SLIGHT_RIGHT",
+    ],
+};
